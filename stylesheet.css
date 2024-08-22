@@ -59,11 +59,11 @@ body {background-color: rgb(22, 22, 22);}
   line-height: 1.6;
 }
 a:link {
-  color: rgb(80, 159, 255);
+  color: coral;
   font-family: "Montserrat";
 }
 a:visited {
-  color: coral;
+  color: gray;
   font-family: "Montserrat";
 }
 
