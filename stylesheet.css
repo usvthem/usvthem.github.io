@@ -1,4 +1,4 @@
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1000px) {
   body {
     font-size: 20px;
   }
@@ -10,7 +10,7 @@
 }
 }
 
-@media screen and (min-width: 768px){
+@media screen and (min-width: 1000px){
   .content {
   max-width: 500px;
   margin: auto;
