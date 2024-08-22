@@ -1,3 +1,8 @@
+@font-face {
+  font-family: "Montserrat";
+  src: url("fonts/Montserrat");
+}
+
 .content {
   max-width: 500px;
   margin: auto;
