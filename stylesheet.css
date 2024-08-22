@@ -5,10 +5,7 @@
   margin: auto;
   -ms-transform: translateY(50%);
   transform: translateY(50%);
-  }
-  #bio{
-    line-height: 1.6;
-    color: rgb(85, 85, 85);
+  text-align: center;
   }
 
 body {background-color: rgb(251, 251, 251);}
@@ -86,6 +83,10 @@ font-family: "Montserrat";
   padding-right: 500px;
   font-size: 15px;
 }
+#bio{
+  line-height: 1.6;
+  color: rgb(85, 85, 85);
+}
 #vimeo
 {
 border-radius: 5px;
@@ -101,11 +102,7 @@ color: rgb(85, 85, 85);
 @media screen and (max-width: 1000px) {
   .content {
     font-size: 40px;
-  }
-  #bio{
-    line-height: 1.6;
-    color: rgb(85, 85, 85);
-    font-size: 20px;
+    text-align: center;
   }
 
 body {background-color: rgb(251, 251, 251);}
@@ -175,23 +172,32 @@ font-family: "Montserrat";
 
 #plumaje_button
 {
-  padding-top: 0px;
-  padding-right: 500px;
-  font-size: 15px;
+  font-size: 20px;
 }
 #gloria_button
 {
-  padding-bottom: 120px;
-  padding-right: 500px;
-  font-size: 15px;
+  font-size: 20px;
+}
+#bio{
+  line-height: 1.6;
+  color: rgb(85, 85, 85);
+  font-size: 20px;
+  max-width: 400px;
 }
 #vimeo
 {
 border-radius: 5px;
+width: 50px;
+height: 50px;
+}
+#instagram
+{
+width: 50px;
+height: 50px;
 }
 #contact
 {
-font-size: 15px;
+font-size: 20px;
 color: rgb(85, 85, 85);
 }
 }
