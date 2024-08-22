@@ -155,6 +155,7 @@ font-size: 30px;
 max-width: 450px;
 margin-top: 200px;
 position: relative;
+background-color: rgb(251, 251, 251);
 }
 #gloria {
 top: 120px;
@@ -165,6 +166,7 @@ left: 2%;
 max-width: 450px;
 margin-top: 200px;
 position: relative;
+background-color: rgb(251, 251, 251);
 }
 a:link {
 color: rgb(85, 85, 85);
