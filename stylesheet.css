@@ -101,8 +101,9 @@ color: rgb(85, 85, 85);
 
 @media screen and (max-width: 1000px) {
   .content {
-    font-size: 40px;
+    font-size: 50px;
     text-align: center;
+    position: relative;
   }
 
 body {background-color: rgb(251, 251, 251);}
@@ -110,7 +111,7 @@ h1 {
   color: rgb(85, 85, 85);
   font-family: "Montserrat";
   font-weight: 500;
-  font-size: 35px;
+  font-size: 50px;
   letter-spacing: 3px;
 }
 h2 {
@@ -132,7 +133,7 @@ padding: 7px 32px;
 text-align: center;
 text-decoration: none;
 display: inline-block;
-font-size: 19px;
+font-size: 30px;
 letter-spacing: 2px;
 background: 0; outline: 0;
 font-family: "Montserrat";
@@ -150,16 +151,20 @@ text-align: justify;
 top: 120px;
 line-height: 1.6;
 color: rgb(85, 85, 85);
-font-size: 20px;
+font-size: 30px;
 max-width: 450px;
+margin-top: 200px;
+position: relative;
 }
 #gloria {
 top: 120px;
 line-height: 1.6;
 color: rgb(85, 85, 85);
-font-size: 20px;
+font-size: 30px;
 left: 2%;
 max-width: 450px;
+margin-top: 200px;
+position: relative;
 }
 a:link {
 color: rgb(85, 85, 85);
@@ -172,17 +177,21 @@ font-family: "Montserrat";
 
 #plumaje_button
 {
-  font-size: 20px;
+  font-size: 30px;
+  position: relative;
 }
 #gloria_button
 {
-  font-size: 20px;
+  font-size: 30px;
+  position: relative;
 }
 #bio{
   line-height: 1.6;
   color: rgb(85, 85, 85);
-  font-size: 20px;
+  font-size: 30px;
   max-width: 400px;
+  margin-top: 300px;
+  position: relative;
 }
 #vimeo
 {
@@ -197,7 +206,7 @@ height: 50px;
 }
 #contact
 {
-font-size: 20px;
+font-size: 30px;
 color: rgb(85, 85, 85);
 }
 }
