@@ -2,13 +2,21 @@
   body {
     font-size: 20px;
   }
+   .content {
+  max-width: autp;
+  margin: auto;
+  -ms-transform: translateY(50%);
+  transform: translateY(50%);
+}
 }
 
-.content {
+@media screen and (min-width: 768px){
+  .content {
   max-width: 500px;
   margin: auto;
   -ms-transform: translateY(50%);
   transform: translateY(50%);
+  }
 }
 
 
