@@ -2,11 +2,10 @@
 @media (min-device-width:320px) and (max-device-width:768px) {
     .content {
     transform: scale(1.4);
-    max-width: 700px;
     margin: auto;
     text-align: center;
-    -ms-transform: translateY(40%);
-    transform: translateY(40%);
+    -ms-transform: translateY(20%);
+    transform: translateY(20%);
     }
     
     body {background-color: rgb(251, 251, 251);}
@@ -14,7 +13,7 @@
       color: rgb(85, 85, 85);
       font-family: "Montserrat";
       font-weight: 500;
-      font-size: 80px;
+      font-size: 55px;
       letter-spacing: 3px;
     }
     h2 {
