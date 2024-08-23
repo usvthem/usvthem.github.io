@@ -1,6 +1,7 @@
 
 @media (min-device-width:320px) and (max-device-width:768px) {
     .content {
+    top: 100px;
     transform: scale(1.4);
     }
     #bio {
