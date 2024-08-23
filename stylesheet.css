@@ -219,7 +219,7 @@ color: rgb(85, 85, 85);
 }
 }
 
-@media screen and (max-width: 750px) {
+@media (min-device-width:320px) and (max-device-width:768px) {
   .content {
     transform: scale(1.6);
     background-color: green;
