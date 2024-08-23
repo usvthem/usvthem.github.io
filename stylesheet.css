@@ -10,14 +10,12 @@
     }
     #plumaje_button
     {
-      left: 50px;
-      transform: scale(1.4);
+      font-size: 30px;
       position: relative;
     }
     #gloria_button
     {
-      left: 50px;
-      transform: scale(1.4);
+      font-size: 30px;
       position: relative;
     }
     #plumaje
@@ -179,7 +177,6 @@ background-color: transparent;
 color: rgb(85, 85, 85);
 border-style: none;
 text-align: justify;
-
 }
 
 #plumaje {
