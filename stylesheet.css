@@ -1,26 +1,30 @@
 
 @media (min-device-width:320px) and (max-device-width:768px) {
-  .content {
-    transform: scale(1.1);
-  }
-  #bio {
-    transform: scale(1.1);
+    .content {
+    transform: scale(1.4);
+    }
+    #bio {
+    transform: scale(1.4);
     }
     #plumaje_button
     {
-      transform: scale(1.1);
+      transform: scale(1.4);
     }
     #gloria_button
     {
-      transform: scale(1.1);
+      transform: scale(1.4);
     }
     #plumaje
       {
-        transform: scale(1.1);
+        transform: scale(1.4);
       }
     #gloria
       {
-        transform: scale(1.1);
+        transform: scale(1.4);
+      }
+    #contact
+      {
+        transform: scale(1.4);
       }
   }
   
