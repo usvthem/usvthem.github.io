@@ -3,10 +3,26 @@
   .content {
     transform: scale(1.1);
   }
-   body {
+  #bio {
     transform: scale(1.1);
     }
-}
+    #plumaje_button
+    {
+      transform: scale(1.1);
+    }
+    #gloria_button
+    {
+      transform: scale(1.1);
+    }
+    #plumaje
+      {
+        transform: scale(1.1);
+      }
+    #gloria
+      {
+        transform: scale(1.1);
+      }
+  }
   
 @media screen and (min-width: 1000px){
   .content {
