@@ -3,35 +3,122 @@
     .content {
     top: 100px;
     transform: scale(1.4);
+    max-width: 500px;
+    margin: auto;
+    text-align: center;
+    }
+    
+    body {background-color: rgb(251, 251, 251);}
+    h1 {
+      color: rgb(85, 85, 85);
+      font-family: "Montserrat";
+      font-weight: 500;
+      font-size: 55px;
+      letter-spacing: 3px;
+    }
+    h2 {
+      font-family: "Montserrat";
+    }
+    h3 {
+      font-family: "Montserrat";
+    }
+    p {
+      font-family: "Montserrat";
+    }
+
+    .button {
+    background-color: transparent;
+    border: none;
+    color: rgb(85, 85, 85);
+    padding: 7px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 40px;
+    letter-spacing: 2px;
+    background: 0; outline: 0;
+    font-family: "Montserrat";
+    }
+    
+    [popover] {
+    background-color: transparent;
+    color: rgb(85, 85, 85);
+    border-style: none;
+    text-align: justify;
+    }
+
+    a:link {
+    color: lightblue;
+    font-family: "Montserrat";
+    }
+    a:visited {
+    color: gray;
+    font-family: "Montserrat";
     }
     #bio {
     top: 180px;
     transform: scale(1.4);
+    line-height: 1.6;
+    color: rgb(85, 85, 85);
+    font-size: 30px;
+    max-width: 500px;
+    position: relative;
     }
     #plumaje_button
     {
       font-size: 30px;
       position: relative;
+      bottom: 20px;
+      right: 40px;
     }
     #gloria_button
     {
       font-size: 30px;
       position: relative;
+      bottom: 20px;
+      right: 40px;
     }
     #plumaje
       {
-        top: 1000px;
+        transform: scale(1.4);
         position: relative;
+        top: 120px;
+        line-height: 1.6;
+        color: rgb(85, 85, 85);
+        font-size: 30px;
+        max-width: 500px;
+        position: relative;
+        background-color: rgb(251, 251, 251);
       }
     #gloria
       {
-        top: 1000px;
+        ransform: scale(1.4);
         position: relative;
+        top: 120px;
+        line-height: 1.6;
+        color: rgb(85, 85, 85);
+        font-size: 30px;
+        max-width: 500px;
+        position: relative;
+        background-color: rgb(251, 251, 251);
       }
     #contact
       {
         transform: scale(1.4);
+        font-size: 30px;
+        color: rgb(85, 85, 85);
       }
+    #vimeo
+    {
+    border-radius: 5px;
+    width: 50px;
+    height: 50px;
+    }
+    #instagram
+    {
+    width: 50px;
+    height: 50px;
+    }
   }
   
 @media screen and (min-width: 1000px){
