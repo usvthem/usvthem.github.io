@@ -219,9 +219,9 @@ color: rgb(85, 85, 85);
 }
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 600px) {
   .content {
-    transform: scale(1.4);
+    transform: scale(1.6);
   }
 }
 
