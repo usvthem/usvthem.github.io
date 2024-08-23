@@ -22,12 +22,10 @@
     }
     #plumaje
       {
-        transform: scale(1.2);
         position: relative;
       }
     #gloria
       {
-        transform: scale(1.4);
         position: relative;
       }
     #contact
