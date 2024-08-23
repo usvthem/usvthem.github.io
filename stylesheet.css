@@ -1,151 +1,150 @@
-
 @media (min-device-width:320px) and (max-device-width:768px) {
-    .content {
-    transform: scale(1.4);
-    margin: auto;
-    text-align: center;
-    -ms-transform: translateY(20%);
-    transform: translateY(20%);
-    }
-    
-    body {background-color: rgb(251, 251, 251);}
-    h1 {
-      color: rgb(85, 85, 85);
-      font-family: "Montserrat";
-      font-weight: 500;
-      font-size: 70px;
-      letter-spacing: 3px;
-    }
-    h2 {
-      font-family: "Montserrat";
-    }
-    h3 {
-      font-family: "Montserrat";
-    }
-    p {
-      font-family: "Montserrat";
-    }
-
-    .button {
-    background-color: transparent;
-    border: none;
-    color: rgb(85, 85, 85);
-    padding: 7px 32px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 50px;
-    letter-spacing: 2px;
-    background: 0; outline: 0;
-    font-family: "Montserrat";
-    }
-    
-    [popover] {
-    background-color: transparent;
-    color: rgb(85, 85, 85);
-    border-style: none;
-    text-align: justify;
-    }
-
-    a:link {
-    color: lightblue;
-    font-family: "Montserrat";
-    }
-    a:visited {
-    color: gray;
-    font-family: "Montserrat";
-    }
-    #bio {
-    top: 180px;
-    transform: scale(1.4);
-    line-height: 1.6;
-    color: rgb(85, 85, 85);
-    font-size: 30px;
-    max-width: 500px;
-    position: relative;
-    }
-    #plumaje_button
-    {
-      font-size: 50px;
-      position: relative;
-      transform: translateX(-20%);
-      transform: translateY(-20%);
-    }
-    #gloria_button
-    {
-      font-size: 50px;
-      position: relative;
-      transform: translateX(-20%);
-      transform: translateY(-20%);
-    }
-    #plumaje
-      {
-        transform: scale(1.4);
-        position: relative;
-        top: 120px;
-        line-height: 1.6;
-        color: rgb(85, 85, 85);
-        font-size: 30px;
-        max-width: 500px;
-        position: relative;
-        background-color: rgb(251, 251, 251);
-      }
-    #gloria
-      {
-        transform: scale(1.4);
-        position: relative;
-        top: 120px;
-        line-height: 1.6;
-        color: rgb(85, 85, 85);
-        font-size: 30px;
-        max-width: 500px;
-        position: relative;
-        background-color: rgb(251, 251, 251);
-      }
-    #contact
-      {
-        transform: scale(1.4);
-        font-size: 30px;
-        color: rgb(85, 85, 85);
-      }
-    #vimeo
-    {
-    border-radius: 5px;
-    width: 50px;
-    height: 50px;
-    }
-    #instagram
-    {
-    width: 50px;
-    height: 50px;
-    }
+  .content {
+  transform: scale(1.4);
+  margin: auto;
+  text-align: center;
+  -ms-transform: translateY(20%);
+  transform: translateY(20%);
   }
   
-@media screen and (min-width: 1000px){
-  .content {
-  max-width: 500px;
-  margin: auto;
-  -ms-transform: translateY(50%);
-  transform: translateY(50%);
-  text-align: center;
+  body {background-color: rgb(251, 251, 251);}
+  h1 {
+    color: rgb(85, 85, 85);
+    font-family: "Montserrat";
+    font-weight: 500;
+    font-size: 70px;
+    letter-spacing: 3px;
   }
+  h2 {
+    font-family: "Montserrat";
+  }
+  h3 {
+    font-family: "Montserrat";
+  }
+  p {
+    font-family: "Montserrat";
+  }
+
+  .button {
+  background-color: transparent;
+  border: none;
+  color: rgb(85, 85, 85);
+  padding: 7px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 50px;
+  letter-spacing: 2px;
+  background: 0; outline: 0;
+  font-family: "Montserrat";
+  }
+  
+  [popover] {
+  background-color: transparent;
+  color: rgb(85, 85, 85);
+  border-style: none;
+  text-align: justify;
+  }
+
+  a:link {
+  color: lightblue;
+  font-family: "Montserrat";
+  }
+  a:visited {
+  color: gray;
+  font-family: "Montserrat";
+  }
+  #bio {
+  top: 180px;
+  transform: scale(1.4);
+  line-height: 1.6;
+  color: rgb(85, 85, 85);
+  font-size: 30px;
+  max-width: 500px;
+  position: relative;
+  }
+  #plumaje_button
+  {
+    font-size: 50px;
+    position: relative;
+    transform: translateX(-20%);
+    transform: translateY(-20%);
+  }
+  #gloria_button
+  {
+    font-size: 50px;
+    position: relative;
+    transform: translateX(-20%);
+    transform: translateY(-20%);
+  }
+  #plumaje
+    {
+      transform: scale(1.4);
+      position: relative;
+      top: 120px;
+      line-height: 1.6;
+      color: rgb(85, 85, 85);
+      font-size: 30px;
+      max-width: 500px;
+      position: relative;
+      background-color: rgb(251, 251, 251);
+    }
+  #gloria
+    {
+      transform: scale(1.4);
+      position: relative;
+      top: 120px;
+      line-height: 1.6;
+      color: rgb(85, 85, 85);
+      font-size: 30px;
+      max-width: 500px;
+      position: relative;
+      background-color: rgb(251, 251, 251);
+    }
+  #contact
+    {
+      transform: scale(1.4);
+      font-size: 30px;
+      color: rgb(85, 85, 85);
+    }
+  #vimeo
+  {
+  border-radius: 5px;
+  width: 50px;
+  height: 50px;
+  }
+  #instagram
+  {
+  width: 50px;
+  height: 50px;
+  }
+}
+
+@media (min-device-width:1000px){
+.content {
+max-width: 500px;
+margin: auto;
+-ms-transform: translateY(50%);
+transform: translateY(50%);
+text-align: center;
+}
 
 body {background-color: rgb(251, 251, 251);}
 h1 {
-  color: rgb(85, 85, 85);
-  font-family: "Montserrat";
-  font-weight: 500;
-  font-size: 35px;
-  letter-spacing: 3px;
+color: rgb(85, 85, 85);
+font-family: "Montserrat";
+font-weight: 500;
+font-size: 35px;
+letter-spacing: 3px;
 }
 h2 {
-  font-family: "Montserrat";
+font-family: "Montserrat";
 }
 h3 {
-  font-family: "Montserrat";
+font-family: "Montserrat";
 }
 p {
-  font-family: "Montserrat";
+font-family: "Montserrat";
 }
 
 
@@ -195,19 +194,19 @@ font-family: "Montserrat";
 
 #plumaje_button
 {
-  padding-top: 0px;
-  padding-right: 500px;
-  font-size: 17px;
+padding-top: 0px;
+padding-right: 500px;
+font-size: 17px;
 }
 #gloria_button
 {
-  padding-bottom: 120px;
-  padding-right: 500px;
-  font-size: 17px;
+padding-bottom: 120px;
+padding-right: 500px;
+font-size: 17px;
 }
 #bio{
-  line-height: 1.6;
-  color: rgb(85, 85, 85);
+line-height: 1.6;
+color: rgb(85, 85, 85);
 }
 #vimeo
 {
@@ -218,32 +217,55 @@ border-radius: 5px;
 font-size: 15px;
 color: rgb(85, 85, 85);
 }
+
+@media screen and (max-width:1000px)
+{
+  .content {
+    max-width: 500px;
+    margin: auto;
+    -ms-transform: translateY(50%);
+    transform: translateY(50%);
+    text-align: center;
+    }
+    body {
+     max-width: 500px;
+    }
+    [popover] {
+      background-color: transparent;
+      color: rgb(85, 85, 85);
+      border-style: none;
+      text-align: justify;
+      transform: translateX(-30%);
+      width: 500px;
+      position: relative;
+     }
+}
 }
 
 
 @media screen and (min-device-width:769px) and (max-device-width:1000px) {
-  .content {
-    font-size: 50px;
-    text-align: center;
-    position: relative;
-  }
+.content {
+  font-size: 50px;
+  text-align: center;
+  position: relative;
+}
 
 body {background-color: rgb(251, 251, 251);}
 h1 {
-  color: rgb(85, 85, 85);
-  font-family: "Montserrat";
-  font-weight: 500;
-  font-size: 55px;
-  letter-spacing: 3px;
+color: rgb(85, 85, 85);
+font-family: "Montserrat";
+font-weight: 500;
+font-size: 55px;
+letter-spacing: 3px;
 }
 h2 {
-  font-family: "Montserrat";
+font-family: "Montserrat";
 }
 h3 {
-  font-family: "Montserrat";
+font-family: "Montserrat";
 }
 p {
-  font-family: "Montserrat";
+font-family: "Montserrat";
 }
 
 
@@ -300,27 +322,27 @@ font-family: "Montserrat";
 
 #plumaje_button
 {
-  font-size: 30px;
-  position: relative;
-  bottom: 20px;
-  right: 40px;
-  font-style: italic;
+font-size: 30px;
+position: relative;
+bottom: 20px;
+right: 40px;
+font-style: italic;
 }
 #gloria_button
 {
-  font-size: 30px;
-  position: relative;
-  bottom: 20px;
-  right: 40px;
-  font-style: italic;
+font-size: 30px;
+position: relative;
+bottom: 20px;
+right: 40px;
+font-style: italic;
 }
 #bio{
-  line-height: 1.6;
-  color: rgb(85, 85, 85);
-  font-size: 30px;
-  max-width: 400px;
-  margin-top: 300px;
-  position: relative;
+line-height: 1.6;
+color: rgb(85, 85, 85);
+font-size: 30px;
+max-width: 400px;
+margin-top: 300px;
+position: relative;
 }
 #vimeo
 {
@@ -339,5 +361,3 @@ font-size: 30px;
 color: rgb(85, 85, 85);
 }
 }
-
-
