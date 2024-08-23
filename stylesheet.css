@@ -20,10 +20,12 @@
     }
     #plumaje
       {
+        top: 1000px;
         position: relative;
       }
     #gloria
       {
+        top: 1000px;
         position: relative;
       }
     #contact
