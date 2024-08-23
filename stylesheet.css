@@ -2,11 +2,11 @@
 @media (min-device-width:320px) and (max-device-width:768px) {
     .content {
     transform: scale(1.4);
-    max-width: 500px;
+    max-width: 700px;
     margin: auto;
     text-align: center;
-    -ms-transform: translateY(60%);
-    transform: translateY(60%);
+    -ms-transform: translateY(50%);
+    transform: translateY(50%);
     }
     
     body {background-color: rgb(251, 251, 251);}
@@ -14,7 +14,7 @@
       color: rgb(85, 85, 85);
       font-family: "Montserrat";
       font-weight: 500;
-      font-size: 50px;
+      font-size: 60px;
       letter-spacing: 3px;
     }
     h2 {
@@ -69,13 +69,15 @@
     {
       font-size: 40px;
       position: relative;
-      transform: translateX(-60%);
+      transform: translateX(-20%);
+      transform: translateY(-20%);
     }
     #gloria_button
     {
       font-size: 40px;
       position: relative;
-      transform: translateX(-60%);
+      transform: translateX(-20%);
+      transform: translateY(-20%);
     }
     #plumaje
       {
