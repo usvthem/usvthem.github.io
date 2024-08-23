@@ -12,21 +12,23 @@
     {
       left: 50px;
       transform: scale(1.4);
+      position: relative;
     }
     #gloria_button
     {
       left: 50px;
       transform: scale(1.4);
+      position: relative;
     }
     #plumaje
       {
-        top: 500px;
         transform: scale(1.4);
+        position: relative;
       }
     #gloria
       {
-        ttop: 500px;
         transform: scale(1.4);
+        position: relative;
       }
     #contact
       {
