@@ -169,7 +169,7 @@ position: relative;
 background-color: rgb(251, 251, 251);
 }
 a:link {
-color: rgb(85, 85, 85);
+color: lightblue;
 font-family: "Montserrat";
 }
 a:visited {
@@ -181,11 +181,17 @@ font-family: "Montserrat";
 {
   font-size: 30px;
   position: relative;
+  bottom: 20px;
+  right: 40px;
+  font-style: italic;
 }
 #gloria_button
 {
   font-size: 30px;
   position: relative;
+  bottom: 20px;
+  right: 40px;
+  font-style: italic;
 }
 #bio{
   line-height: 1.6;
