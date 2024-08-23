@@ -1,7 +1,7 @@
 
 @media (min-device-width:320px) and (max-device-width:768px) {
     .content {
-    top: 100px;
+    top: 250px;
     transform: scale(1.4);
     max-width: 500px;
     margin: auto;
@@ -13,7 +13,7 @@
       color: rgb(85, 85, 85);
       font-family: "Montserrat";
       font-weight: 500;
-      font-size: 55px;
+      font-size: 40px;
       letter-spacing: 3px;
     }
     h2 {
@@ -92,7 +92,7 @@
       }
     #gloria
       {
-        ransform: scale(1.4);
+        transform: scale(1.4);
         position: relative;
         top: 120px;
         line-height: 1.6;
