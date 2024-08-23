@@ -5,11 +5,12 @@
     transform: scale(1.4);
     }
     #bio {
-    top: 100px;
+    top: 120px;
     transform: scale(1.4);
     }
     #plumaje_button
     {
+      left: 100px;
       transform: scale(1.4);
     }
     #gloria_button
@@ -18,12 +19,12 @@
     }
     #plumaje
       {
-        top: 100px;
+        top: 120px;
         transform: scale(1.4);
       }
     #gloria
       {
-        ttop: 100px;
+        ttop: 120px;
         transform: scale(1.4);
       }
     #contact
