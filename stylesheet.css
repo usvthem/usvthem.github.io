@@ -222,6 +222,7 @@ color: rgb(85, 85, 85);
 @media screen and (max-width: 750px) {
   .content {
     transform: scale(1.6);
+    background-color: green;
   }
 }
 
