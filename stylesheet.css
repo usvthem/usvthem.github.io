@@ -84,6 +84,18 @@
     transform: translateX(-20%);
     transform: translateY(-20%);
   }
+   #tetris
+    {
+      transform: scale(1.4);
+      position: relative;
+      top: 120px;
+      line-height: 1.6;
+      color: rgb(85, 85, 85);
+      font-size: 30px;
+      max-width: 500px;
+      position: relative;
+      background-color: rgb(251, 251, 251);
+    }
   #plumaje
     {
       transform: scale(1.4);
