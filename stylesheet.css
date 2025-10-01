@@ -181,8 +181,8 @@ font-family: "Montserrat";
   .column img {
     margin-top: 8px;
     vertical-align: middle;
-    height: 100px;
-    width: 100px;
+    height: 100;
+    width: 100;
   }
 .button {
 background-color: transparent;
