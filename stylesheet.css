@@ -265,7 +265,7 @@ padding-bottom: 100px;
 
  #tetris, #plumaje, #gloria {
       position: relative;
-      margin-top: 250px;   /* pushes popups lower so they don't overlap the menu */
+      margin-top: 200px;   /* pushes popups lower so they don't overlap the menu */
       padding-top:0%;
       line-height: 1.6;
       color: rgb(85, 85, 85);
