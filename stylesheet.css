@@ -45,7 +45,22 @@
   border-style: none;
   text-align: justify;
   }
+  .row {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 4px;
+  }
 
+  /* Create two equal columns that sits next to each other */
+  .column {
+    flex: 50%;
+    padding: 0 4px;
+  }
+  
+  .column img {
+    margin-top: 8px;
+    vertical-align: middle;
+  }
   a:link {
   color: lightblue;
   font-family: "Montserrat";
@@ -240,6 +255,7 @@ border-radius: 5px;
 font-size: 15px;
 color: rgb(85, 85, 85);
 }
+  
 
 @media screen and (max-width:1000px)
 {
