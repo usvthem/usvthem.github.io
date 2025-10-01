@@ -169,13 +169,12 @@ font-family: "Montserrat";
 
   
 #photography {
-  position: relative;
+  position: sticky;
   top: 240px;                /* keeps it below header/menu */
-  margin: 0 auto;
   padding-top: 20px;
-  padding-right: 30px;
+  padding-right: 100px;
   padding-bottom: 50px;
-  padding-left: 80px;
+  padding-left: 100px;
   max-width: 1400px;         /* enough space for 4 columns */
   width: 100%;
   max-height: 70vh;          /* vertical scrolling if needed */
