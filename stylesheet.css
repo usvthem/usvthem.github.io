@@ -229,16 +229,16 @@ padding-bottom: 100px;
 
 }
 
-#plumaje {
-top: 120px;
-line-height: 1.6;
-color: rgb(85, 85, 85);
-}
-#gloria {
-top: 120px;
-line-height: 1.6;
-color: rgb(85, 85, 85);
-}
+ #tetris, #plumaje, #gloria {
+      position: relative;
+      margin-top: 250px;   /* pushes popups lower so they don't overlap the menu */
+      padding-top:0%;
+      line-height: 1.6;
+      color: rgb(85, 85, 85);
+      font-size: 20px;
+      max-width: 500px;
+      background-color: rgb(251, 251, 251);
+  }
 a:link {
 color: rgb(85, 85, 85);
 font-family: "Montserrat";
