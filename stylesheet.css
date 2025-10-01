@@ -126,6 +126,38 @@
       font-size: 30px;
       color: rgb(85, 85, 85);
     }
+  #photography {
+  position: relative;
+  top: 240px;                /* keeps it below header/menu */
+  margin: 0 auto;
+  padding: 20px;
+  max-width: 1400px;         /* enough space for 4 columns */
+  width: 100%;
+  max-height: 70vh;          /* vertical scrolling if needed */
+  overflow-y: auto;
+  overflow-x: hidden;        /* no sideways scroll */
+  background-color: rgb(251, 251, 251);
+  line-height: 1.6;
+  color: rgb(85, 85, 85);
+  text-align: center;
+  box-sizing: border-box;
+}
+
+.photo-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);  /* exactly 4 columns */
+  gap: 10px;
+  justify-items: center;
+}
+
+.photo-grid img {
+  max-width: 350px;
+  max-height: 350px;
+  width: auto;
+  height: auto;
+  object-fit: contain;
+  display: block;
+}
   #vimeo
   {
   border-radius: 5px;
