@@ -135,7 +135,7 @@
   #instagram
   {
   width: 50px;
-  height: 50px;
+  height: 50px;}
  .photo-grid {
   display: grid;
   grid-template-columns: 1fr;  /* stack images in one column */
@@ -287,7 +287,7 @@ border-radius: 5px;
 font-size: 15px;
 color: rgb(85, 85, 85);
 }
-  
+  }
 
 @media screen and (max-width:1000px)
 {
@@ -311,7 +311,7 @@ color: rgb(85, 85, 85);
       position: relative;
      }
 }
-}
+
 
 
 @media screen and (min-device-width:769px) and (max-device-width:1000px) {
@@ -431,7 +431,7 @@ height: 50px;
 font-size: 30px;
 color: rgb(85, 85, 85);
 }
-  @media screen and (min-device-width:769px) and (max-device-width:1000px) {
+
   .photo-grid {
     grid-template-columns: repeat(2, 1fr);
   }
@@ -440,6 +440,6 @@ color: rgb(85, 85, 85);
     width: 95%;
     max-width: 100%;
   }
-}
+
 
 }
