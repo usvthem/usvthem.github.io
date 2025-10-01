@@ -137,6 +137,40 @@
   width: 50px;
   height: 50px;
   }
+  #photography {
+  position: sticky;
+  top: 240px;                /* keeps it below header/menu */
+  padding-top: 20px;
+  padding-right: 100px;
+  padding-bottom: 50px;
+  padding-left: 100px;
+  max-width: 1400px;         /* enough space for 4 columns */
+  width: 100%;
+  max-height: 70vh;          /* vertical scrolling if needed */
+  overflow-y: auto;
+  overflow-x: hidden;        /* no sideways scroll */
+  background-color: rgb(251, 251, 251);
+  line-height: 1.6;
+  color: rgb(85, 85, 85);
+  text-align: center;
+  box-sizing: border-box;
+}
+
+.photo-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);  /* exactly 3 columns */
+  gap: 10px;
+  justify-items: center;
+}
+
+.photo-grid img {
+  max-width: 350px;
+  max-height: 350px;
+  width: auto;
+  height: auto;
+  object-fit: contain;
+  display: block;
+}
 }
 
 @media (min-device-width:1000px){
@@ -248,18 +282,13 @@ color: gray;
 font-family: "Montserrat";
 }
 
-#plumaje_button
+#tetris_button, #plumaje_button, #gloria_button 
 {
 padding-top: 0px;
 padding-right: 500px;
 font-size: 17px;
 }
-#gloria_button
-{
-padding-bottom: 120px;
-padding-right: 500px;
-font-size: 17px;
-}
+
 #bio{
 line-height: 1.6;
 color: rgb(85, 85, 85);
