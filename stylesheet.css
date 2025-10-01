@@ -135,23 +135,8 @@
   #instagram
   {
   width: 50px;
-  height: 50px;}
- .photo-grid {
-  display: grid;
-  grid-template-columns: 1fr;  /* stack images in one column */
-  gap: 10px;
-  justify-items: center;
-  width: 100%;
+  height: 50px;
   }
-
-  .photo-grid img {
-  width: 90%;         /* responsive sizing */
-  height: auto;
-  max-width: 100%;    /* never overflow */
-  object-fit: contain;
-  display: block;
-  }
-
 }
 
 @media (min-device-width:1000px){
@@ -244,16 +229,16 @@ padding-bottom: 100px;
 
 }
 
- #tetris, #plumaje, #gloria {
-      position: relative;
-      margin-top: 200px;   /* pushes popups lower so they don't overlap the menu */
-      padding-top:0%;
-      line-height: 1.6;
-      color: rgb(85, 85, 85);
-      font-size: 20px;
-      max-width: 500px;
-      background-color: rgb(251, 251, 251);
-  }
+#plumaje {
+top: 120px;
+line-height: 1.6;
+color: rgb(85, 85, 85);
+}
+#gloria {
+top: 120px;
+line-height: 1.6;
+color: rgb(85, 85, 85);
+}
 a:link {
 color: rgb(85, 85, 85);
 font-family: "Montserrat";
@@ -263,13 +248,18 @@ color: gray;
 font-family: "Montserrat";
 }
 
-#tetris_button, #plumaje_button, #gloria_button 
+#plumaje_button
 {
 padding-top: 0px;
 padding-right: 500px;
 font-size: 17px;
 }
-
+#gloria_button
+{
+padding-bottom: 120px;
+padding-right: 500px;
+font-size: 17px;
+}
 #bio{
 line-height: 1.6;
 color: rgb(85, 85, 85);
@@ -287,7 +277,7 @@ border-radius: 5px;
 font-size: 15px;
 color: rgb(85, 85, 85);
 }
-  }
+  
 
 @media screen and (max-width:1000px)
 {
@@ -311,7 +301,7 @@ color: rgb(85, 85, 85);
       position: relative;
      }
 }
-
+}
 
 
 @media screen and (min-device-width:769px) and (max-device-width:1000px) {
@@ -431,15 +421,4 @@ height: 50px;
 font-size: 30px;
 color: rgb(85, 85, 85);
 }
-
-  .photo-grid {
-    grid-template-columns: repeat(2, 1fr);
-  }
-
-  .photo-grid img {
-    width: 95%;
-    max-width: 100%;
-  }
-
-
 }
